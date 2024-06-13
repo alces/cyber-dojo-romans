@@ -9,14 +9,13 @@ var arabicResults = []struct {
     roman  string
     arabic int
 } {
-    {"M", 1000},
+    {"MXC", 1090},
     {"CM", 900},
     {"MMCM", 2900},
     {"DCC", 700},
     {"D", 500},
     {"CD", 400},
     {"CCC", 300},
-    {"XC", 90},
 }
 
 func TestArabic(t *testing.T) {
