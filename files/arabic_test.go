@@ -12,6 +12,7 @@ var arabicResults = []struct {
     {"M", 1000},
     {"CM", 900},
     {"MMCM", 2900},
+    {"DCC", 700},
     {"D", 500},
     {"CD", 400},
     {"CCC", 300},
