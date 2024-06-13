@@ -139,5 +139,21 @@
       8,
       506894
     ]
+  },
+  {
+    "duration": 7.06501,
+    "colour": "red",
+    "predicted": "red",
+    "revert_if_wrong": "off",
+    "index": 9,
+    "time": [
+      2024,
+      6,
+      13,
+      9,
+      14,
+      49,
+      360734
+    ]
   }
 ]
