@@ -10,7 +10,7 @@ var arabicResults = []struct {
     arabic int
 } {
     {"MXC", 1090},
-    {"MMCM", 2900},
+    {"MMMCMXX", 3920},
     {"DCCXL", 740},
     {"DXC", 590},
     {"CDLXX", 470},
