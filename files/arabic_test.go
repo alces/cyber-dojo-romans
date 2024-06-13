@@ -9,7 +9,7 @@ var arabicResults = []struct {
     roman  string
     arabic int
 } {
-    {"MXC", 1090},
+    {"MXCIV", 1094},
     {"MMMCMXX", 3920},
     {"DCCXLV", 745},
     {"DXC", 590},

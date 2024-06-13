@@ -587,5 +587,21 @@
       19,
       47042
     ]
+  },
+  {
+    "duration": 7.056411,
+    "colour": "red",
+    "predicted": "red",
+    "revert_if_wrong": "off",
+    "index": 37,
+    "time": [
+      2024,
+      6,
+      13,
+      11,
+      35,
+      40,
+      102651
+    ]
   }
 ]
