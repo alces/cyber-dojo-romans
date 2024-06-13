@@ -1,2 +1,11 @@
-PASS
-ok  	_/sandbox	0.008s
+--- FAIL: TestArabic (0.00s)
+    arabic_test.go:23: 
+        	Error Trace:	arabic_test.go:23
+        	Error:      	Not equal: 
+        	            	expected: 70
+        	            	actual  : 50
+        	Test:       	TestArabic
+        	Messages:   	LXX
+FAIL
+exit status 1
+FAIL	_/sandbox	0.007s
