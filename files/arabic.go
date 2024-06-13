@@ -17,6 +17,7 @@ var conversions = []struct {
     {"L", 50},
     {"XL", 40},
     {"X", 10},
+    {"IX", 9},
 }
 
 func Arabic(roman string) (arabic int) {
