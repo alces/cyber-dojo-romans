@@ -19,6 +19,11 @@ func Arabic(roman string) (arabic int) {
         arabic += 500
         roman = roman[1:]
     }
+
+    if strings.HasPrefix(roman, "CD") {
+        arabic += 400
+        roman = roman[2:]
+    }
     
     return
 }
