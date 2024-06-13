@@ -5,6 +5,15 @@ import (
     "github.com/stretchr/testify/assert"
 )
 
+var arabicResults = []struct {
+    roman  string
+    arabic int
+} {
+    {"M", 1000},
+}
+
 func TestArabic(t *testing.T) {
-    assert.Equal(t, 1000, Arabic("M"), "M")
+    for _, r := range arabicResults {
+        assert.Equal(t, r.arabic, Arabic(r.roman), r.roman)
+    }
 }
