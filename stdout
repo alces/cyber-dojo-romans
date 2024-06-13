@@ -1,0 +1,11 @@
+--- FAIL: TestArabic (0.00s)
+    hiker_test.go:9: 
+        	Error Trace:	hiker_test.go:9
+        	Error:      	Not equal: 
+        	            	expected: 1000
+        	            	actual  : 0
+        	Test:       	TestArabic
+        	Messages:   	M
+FAIL
+exit status 1
+FAIL	_/sandbox	0.010s

@@ -1,5 +1,5 @@
-package hiker
+package reverse_romans
 
-func answer() int {
-    return 6 * 9
+func Arabic(roman string) (arabic int) {
+    return 0
 }
