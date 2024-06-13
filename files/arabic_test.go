@@ -10,6 +10,7 @@ var arabicResults = []struct {
     arabic int
 } {
     {"M", 1000},
+    {"CM", 900},
 }
 
 func TestArabic(t *testing.T) {
