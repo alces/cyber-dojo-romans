@@ -14,8 +14,7 @@ var arabicResults = []struct {
     {"DCC", 700},
     {"DXC", 590},
     {"CD", 400},
-    {"CCC", 300},
-    {"L", 50},
+    {"CCCL", 350},
 }
 
 func TestArabic(t *testing.T) {
