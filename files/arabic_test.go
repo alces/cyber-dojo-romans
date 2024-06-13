@@ -11,7 +11,7 @@ var arabicResults = []struct {
 } {
     {"MXC", 1090},
     {"MMMCMXX", 3920},
-    {"DCCXL", 740},
+    {"DCCXLV", 745},
     {"DXC", 590},
     {"CDLXX", 470},
     {"CCCLIX", 359},
