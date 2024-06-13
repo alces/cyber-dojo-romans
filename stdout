@@ -1,11 +1,2 @@
---- FAIL: TestArabic (0.00s)
-    arabic_test.go:23: 
-        	Error Trace:	arabic_test.go:23
-        	Error:      	Not equal: 
-        	            	expected: 50
-        	            	actual  : 0
-        	Test:       	TestArabic
-        	Messages:   	L
-FAIL
-exit status 1
-FAIL	_/sandbox	0.005s
+PASS
+ok  	_/sandbox	0.002s
