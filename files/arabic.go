@@ -4,30 +4,23 @@ import (
     "strings"
 )
 
-func Arabic(roman string) (arabic int) {
-    for strings.HasPrefix(roman, "M") {
-        arabic += 1000
-        roman = roman[1:]
-    }
-    
-    if strings.HasPrefix(roman, "CM") {
-        arabic += 900
-        roman = roman[2:]
-    }
-    
-    if strings.HasPrefix(roman, "D") {
-        arabic += 500
-        roman = roman[1:]
-    }
+var conversions = []struct {
+    roman  string
+    arabic int
+} {
+    {"M", 1000},
+    {"CM", 900},
+    {"D", 500},
+    {"CD", 400},
+    {"C", 100},
+}
 
-    if strings.HasPrefix(roman, "CD") {
-        arabic += 400
-        roman = roman[2:]
-    }
-    
-    for strings.HasPrefix(roman, "C") {
-        arabic += 100
-        roman = roman[1:]
+func Arabic(roman string) (arabic int) {
+    for _, c := range conversions {
+        for strings.HasPrefix(roman, c.roman) {
+            arabic += c.arabic
+            roman = roman[len(c.roman):]
+        }
     }
     
     return
