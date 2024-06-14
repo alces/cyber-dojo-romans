@@ -33,3 +33,7 @@ func Arabic(roman string) (arabic int) {
     
     return
 }
+
+func Roman(arabic int) (roman string) {
+    return
+}

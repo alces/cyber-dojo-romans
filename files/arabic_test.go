@@ -22,3 +22,7 @@ func TestArabic(t *testing.T) {
         assert.Equal(t, r.arabic, Arabic(r.roman), r.roman)
     }
 }
+
+func TestRoman(t *testing.T) {
+    assert.Equal(t, Roman(1094), "MXCIV")
+}
