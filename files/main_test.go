@@ -5,7 +5,7 @@ import (
     "github.com/stretchr/testify/assert"
 )
 
-var arabicResults = []struct {
+var testResults = []struct {
     roman  string
     arabic int
 } {
@@ -18,13 +18,13 @@ var arabicResults = []struct {
 }
 
 func TestArabic(t *testing.T) {
-    for _, r := range arabicResults {
+    for _, r := range testResults {
         assert.Equal(t, r.arabic, Arabic(r.roman), r.roman)
     }
 }
 
 func TestRoman(t *testing.T) {
-    for _, r := range arabicResults {
+    for _, r := range testResults {
         assert.Equal(t, r.roman, Roman(r.arabic), r.arabic)
     }
 }
