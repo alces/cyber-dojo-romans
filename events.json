@@ -699,5 +699,21 @@
       25,
       365413
     ]
+  },
+  {
+    "duration": 15.431113,
+    "colour": "timed_out",
+    "predicted": "red",
+    "revert_if_wrong": "off",
+    "index": 44,
+    "time": [
+      2024,
+      6,
+      14,
+      6,
+      57,
+      57,
+      317930
+    ]
   }
 ]
