@@ -683,5 +683,21 @@
       7,
       604466
     ]
+  },
+  {
+    "duration": 15.348938,
+    "colour": "timed_out",
+    "predicted": "red",
+    "revert_if_wrong": "off",
+    "index": 43,
+    "time": [
+      2024,
+      6,
+      14,
+      6,
+      57,
+      25,
+      365413
+    ]
   }
 ]

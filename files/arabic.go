@@ -35,5 +35,13 @@ func Arabic(roman string) (arabic int) {
 }
 
 func Roman(arabic int) (roman string) {
+    for _, c := range conversions {
+        for arabic/c.arabic > 0 {
+            roman += c.roman
+        }
+        
+        arabic %= c.arabic
+    }
+    
     return
 }
