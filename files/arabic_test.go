@@ -24,5 +24,7 @@ func TestArabic(t *testing.T) {
 }
 
 func TestRoman(t *testing.T) {
-    assert.Equal(t, Roman(1094), "MXCIV")
+    for _, r := range arabicResults {
+        assert.Equal(t, r.roman, Roman(r.arabic), r.arabic)
+    }
 }
